@@ -1,4 +1,4 @@
-FROM golang:1.14.12-buster
+FROM golang:1.14.12-alpine
 MAINTAINER Atsushi Nagase <a@ngs.io> (https://ngs.io)
 
 LABEL "com.github.actions.name"="Go Release Binary"
